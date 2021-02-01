@@ -104,3 +104,27 @@
 // console.log(tasib.getFullName());
 // const rafi = new Child('rafi');
 // console.log(rafi.name);
+
+// Destructure, Object, array, destructure complex object
+// const person = { name: 'tasib', age: 19, profession: 'developer', brother: ['rafi', 'rakib', 'tawrat'] };
+// const { name, age } = person;
+// console.log(name, age);
+
+// nested Object destructure
+// const person = {
+//     name: 'rafi',
+//     info: {
+//         age: 22,
+//         profession: 'programmer'
+//     }
+// }
+// const { age } = person.info;
+// console.log(age);
+
+// array destructure
+// const friends = ['tasib', 'rafi', 'rakib', 'tawrat', 'homaira', 'majid'];
+// const [firstFriend, secondFriend] = friends;
+// console.log(firstFriend, secondFriend);
+// const [...allFriends] = friends;
+// console.log(allFriends);
+// console.log(...allFriends);
