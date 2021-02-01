@@ -56,3 +56,29 @@
 // // const maxNumber = Math.max(number);// NaN
 // const maxNumber = Math.max(...number); // 3
 // console.log(maxNumber);
+
+// Class, constructor, create object from class
+// 1
+// class Student {
+//     constructor() {
+//         this.roll = 12;
+//         this.name = 'Ohidul';
+//     }
+// }
+// const student1 = new Student();
+// console.log(student1);
+// const student2 = new Student();
+// console.log(student2);
+
+// 2
+// class Student {
+//     constructor(roll, name) {
+//         this.roll = roll;
+//         this.name = name;
+//         this.school = 'Fatickchari Coronation';
+//     }
+// }
+// const student1 = new Student(22, 'Ohidul');
+// console.log(student1);
+// const student2 = new Student(33, 'Tasib');
+// console.log(student2);
