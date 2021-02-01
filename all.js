@@ -82,3 +82,25 @@
 // console.log(student1);
 // const student2 = new Student(33, 'Tasib');
 // console.log(student2);
+
+// 3
+// Inheritance, extends class, super, class method
+// class Parent {
+//     constructor() {
+//         this.fatherName = 'Thidul';
+//     }
+// }
+// class Child extends Parent {
+//     constructor(name) {
+//         super();
+//         this.name = name;
+//     }
+//     getFullName() {
+//         return `${this.fatherName} and ${this.name}`;
+//     }
+// }
+// const tasib = new Child('tasib');
+// console.log(tasib);
+// console.log(tasib.getFullName());
+// const rafi = new Child('rafi');
+// console.log(rafi.name);
