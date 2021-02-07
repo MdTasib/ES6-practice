@@ -24,3 +24,28 @@
 // console.log(obj);
 // let obj2 = { ...obj };
 // console.log(obj2);
+
+// // Enhance Object in Javascript
+// // (1)
+// let a = 10, b = 20;
+// let obj = {
+//     a: a,
+//     b: b,
+//     print: function () {
+//         console.log('hello')
+//     }
+// }
+// console.log(obj)
+// obj.print()
+
+// // (2)
+// let c = 11, d = 22;
+// let obj2 = {
+//     c,
+//     d,
+//     print() {
+//         console.log('hello')
+//     }
+// }
+// console.log(obj2)
+// obj2.print()
