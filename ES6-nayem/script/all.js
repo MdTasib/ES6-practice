@@ -49,3 +49,44 @@
 // }
 // console.log(obj2)
 // obj2.print()
+
+// // Destructuring in Javascript
+// // object
+// // (1)
+// // const obj = {
+// //     name: 'tasib',
+// //     age: 19,
+// //     address: {
+// //         phone: +00122345,
+// //         gmail: 'mdtasib442@gmail.com'
+// //     }
+// // }
+// // console.log(obj);
+// // console.log(obj.name);
+// // console.log(obj.address);
+// // console.log(obj.address.phone);
+// // console.log(obj.address.gmail);
+
+// // (2)
+// const obj = {
+//     name: 'tasib',
+//     age: 19,
+//     address: {
+//         phone: 12221,
+//         gmail: 'ohidulalam442@gmail.com'
+//     }
+// }
+// const { name, age, address: { gmail } } = obj;
+// console.log(name, age, gmail);
+
+// // array
+// // (1)
+// const arr1 = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr1[0]);
+// console.log(arr1[2]);
+// console.log(arr1[5]);
+// // (2)
+// const arr = [1, 2, 3, 4, 5, 6];
+// // const [protom, ditio] = arr;
+// const [protom, ditio, , , , last] = arr;
+// console.log(protom, ditio, last);
