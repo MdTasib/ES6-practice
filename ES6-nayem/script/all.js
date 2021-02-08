@@ -90,3 +90,19 @@
 // // const [protom, ditio] = arr;
 // const [protom, ditio, , , , last] = arr;
 // console.log(protom, ditio, last);
+
+// // Object From Entries in Javascript
+// // convert object to array
+// const obj = {
+//     a: 10,
+//     b: 20
+// }
+// console.log(obj);
+// console.log(Object.entries(obj));
+// // convert array to object
+// const arr = [
+//     ['a', 10],
+//     ['b', 20]
+// ]
+// console.log(arr);
+// console.log(Object.fromEntries(arr));
