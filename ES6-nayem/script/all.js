@@ -148,3 +148,26 @@ console.log(textIterator.next());
 console.log(textIterator.next());
 console.log(textIterator.next());
 */
+
+// // for of loop
+// const arr = [1, 2, 3, 4, 5];
+// for (let v of arr) {
+//     console.log(v);
+// };
+// const text = 'tasib';
+// for (let v of text) {
+//     console.log(v);
+// };
+
+// // Generators in Javascript
+// const arr = [1, 2, 3];
+// function* generator(collaction) {
+//     for (let i = 0; i <= collaction.length; i++) {
+//         yield collaction[i];
+//     }
+// }
+// let generatorArr = generator(arr);
+// console.log(generatorArr.next());
+// console.log(generatorArr.next());
+// console.log(generatorArr.next());
+// console.log(generatorArr.next());
