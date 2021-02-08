@@ -106,3 +106,45 @@
 // ]
 // console.log(arr);
 // console.log(Object.fromEntries(arr));
+
+/*
+// Iterator Basics in Javascript old way
+const arr = [1, 2, 3];
+
+function createIterator(collaction) {
+    let i = 0;
+    return {
+        next() {
+            return {
+                done: i >= collaction.length,
+                value: collaction[i++]
+            }
+        }
+    }
+}
+let iterator = createIterator(arr);
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+*/
+
+/*
+// Iterator with Symbol in Javascript es6
+// (1)
+const arr = [1, 2, 3];
+let iterator = arr[Symbol.iterator]();
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+// (2)
+const text = 'Tasib';
+let textIterator = text[Symbol.iterator]();
+console.log(textIterator.next());
+console.log(textIterator.next());
+console.log(textIterator.next());
+console.log(textIterator.next());
+console.log(textIterator.next());
+console.log(textIterator.next());
+*/
