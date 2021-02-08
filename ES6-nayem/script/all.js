@@ -171,3 +171,20 @@ console.log(textIterator.next());
 // console.log(generatorArr.next());
 // console.log(generatorArr.next());
 // console.log(generatorArr.next());
+
+// // // Set in Javascript
+// const arr = [1, 2, 3, 4, 5];
+// let set = new Set(arr);
+// set.add(6);
+// set.delete(1);
+// console.log(set);
+
+// const arr2 = [1, 2, 3, 4, 5, 1, 2, 3];
+// console.log(new Set(arr2));
+
+// const arr3 = [1, 2, 3];
+// const setarr3 = new Set(arr3).keys();
+// console.log(setarr3.next());
+// console.log(setarr3.next());
+// console.log(setarr3.next());
+// console.log(setarr3.next());
