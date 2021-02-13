@@ -218,3 +218,26 @@ console.log(textIterator.next());
 // console.log(ract1);
 // console.log(typeof Ractangle);
 
+// // Inheritance in ES6 in Javascript
+// class Shape {
+//     constructor(color) {
+//         this.color = color;
+//     }
+//     draw() {
+//         console.log('Drawing...')
+//     }
+// }
+
+// class Ractangle extends Shape {
+//     constructor(color, width, height) {
+//         super(color)
+//         this.width = width;
+//         this.height = height;
+//     }
+//     calculate() {
+//         return this.width * this.height;
+//     }
+// }
+// let ract = new Ractangle('Red', 5, 6);
+// console.log(ract);
+// ract.draw();
