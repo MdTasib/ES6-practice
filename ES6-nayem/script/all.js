@@ -217,3 +217,4 @@ console.log(textIterator.next());
 // let ract1 = new Ractangle(11, 22);
 // console.log(ract1);
 // console.log(typeof Ractangle);
+
