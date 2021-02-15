@@ -350,3 +350,51 @@ console.log(changeToInt('hellow'));
 // console.log(words);
 // let number = markWord(34);
 // console.log(number);
+
+// // Throwing an Error in Javascript
+// // (1)
+// try {
+//     console.log('I am line 1');
+//     console.log('I am line 2');
+//     console.log('I am line 3');
+//     console.log('I am line 4');
+// } catch (err) {
+//     console.log(err.message);
+// };
+// console.log('Number One Example End');
+// // (2)
+// try {
+//     console.log('I am line 1');
+//     console.log('I am line 2');
+//     throw new Error('I am error');
+//     console.log('I am line 3');
+//     console.log('I am line 4');
+// } catch (err) {
+//     console.log(err.message);
+// };
+
+// // Finally Block in Javascript
+// // (1)
+// try {
+//     console.log('I am line 1');
+//     console.log('I am line 2');
+//     console.log('I am line 3');
+//     console.log('I am line 4');
+// } catch (err) {
+//     console.log(err.message);
+// } finally {
+//     console.log('I am finally method');
+// };
+// console.log('Number One Example End');
+// // (2)
+// try {
+//     console.log('I am line 1');
+//     console.log('I am line 2');
+//     throw new Error('I am error');
+//     console.log('I am line 3');
+//     console.log('I am line 4');
+// } catch (err) {
+//     console.log(err.message);
+// } finally {
+//     console.log('I am finally method');
+// };
