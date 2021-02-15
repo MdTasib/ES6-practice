@@ -398,3 +398,15 @@ console.log(changeToInt('hellow'));
 // } finally {
 //     console.log('I am finally method');
 // };
+
+// // optional catch binding in javascript
+// try {
+//     console.log('1');
+//     console.log('2');
+//     throw new Error('')
+//     console.log('3');
+// } catch{
+//     console.log('i am error');
+// } finally {
+//     console.log('i am finally');
+// }
