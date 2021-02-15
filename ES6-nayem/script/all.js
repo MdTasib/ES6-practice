@@ -271,12 +271,12 @@ console.log(textIterator.next());
 // ract.draw();
 
 // Array methods map filter find forEach
-let products = [
-    { id: 1, name: 'laptop', price: 500 },
-    { id: 2, name: 'mobile', price: 401 },
-    { id: 3, name: 'tablat', price: 300 },
-    { id: 4, name: 'watch', price: 200 },
-]
+// let products = [
+//     { id: 1, name: 'laptop', price: 500 },
+//     { id: 2, name: 'mobile', price: 401 },
+//     { id: 3, name: 'tablat', price: 300 },
+//     { id: 4, name: 'watch', price: 200 },
+// ]
 /*
 // map
 const productsName = products.map(productName => productName.name);
@@ -308,3 +308,45 @@ console.log(remaining);
 // find
 // const hasWatch = products.find(OnlyWatch => OnlyWatch.name == 'watch');
 // console.log(hasWatch);
+
+// Error Handling with If Else in Javascript
+const changeToInt = (value) => {
+    let result = Number.parseInt(value);
+    if (!result) {
+        return 'not a valid number';
+    } else {
+        return result;
+    }
+}
+console.log(changeToInt('444'));
+console.log(changeToInt('hellow'));
+
+// Error Handling with Try Catch in Javascript
+// (1)
+// const markWord = (text) => {
+//     let str = text.trim();
+//     let word = str.split(' ');
+//     return word;
+// }
+// let words = markWord('    I am Tasib     ');
+// console.log(words);
+// let number = markWord(34);
+// console.log(number);
+
+// (2)
+// const markWord = (text) => {
+//     try {
+//         let str = text.trim();
+//         let word = str.split(' ');
+//         return word;
+//     } catch (error) {
+//         // (1)
+//         // console.log(error);
+//         // (2)
+//         console.log('Please provide a valid string');
+//     }
+// }
+// let words = markWord('    I am Tasib     ');
+// console.log(words);
+// let number = markWord(34);
+// console.log(number);
