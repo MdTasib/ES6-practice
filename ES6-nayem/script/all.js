@@ -269,3 +269,42 @@ console.log(textIterator.next());
 // let ract = new Ractangle('Red', 5, 6);
 // console.log(ract);
 // ract.draw();
+
+// Array methods map filter find forEach
+let products = [
+    { id: 1, name: 'laptop', price: 500 },
+    { id: 2, name: 'mobile', price: 401 },
+    { id: 3, name: 'tablat', price: 300 },
+    { id: 4, name: 'watch', price: 200 },
+]
+/*
+// map
+const productsName = products.map(productName => productName.name);
+console.log(productsName);
+const productsPrice = products.map(productPrice => productPrice.price);
+console.log(productsPrice);
+const productsId = products.map(id => { // jodi multiline na hoi tahole return korte hobe.
+    // id.id; // undifine
+    return id.id; // 1,2,3,4
+})
+console.log(productsId);
+*/
+
+// forEach
+// products.forEach(productName => console.log(productName.name));
+
+/*
+// filter
+let lowPriceProduct = products.filter(product => product.price < 400);
+console.log(lowPriceProduct);
+// remove an item useing filter
+const remain = lowPriceProduct.filter(product => product.name !== 'watch');
+console.log(remain);
+
+const remaining = products.filter(product => product.name !== 'tablat');
+console.log(remaining);
+*/
+
+// find
+// const hasWatch = products.find(OnlyWatch => OnlyWatch.name == 'watch');
+// console.log(hasWatch);
