@@ -310,16 +310,16 @@ console.log(remaining);
 // console.log(hasWatch);
 
 // Error Handling with If Else in Javascript
-const changeToInt = (value) => {
-    let result = Number.parseInt(value);
-    if (!result) {
-        return 'not a valid number';
-    } else {
-        return result;
-    }
-}
-console.log(changeToInt('444'));
-console.log(changeToInt('hellow'));
+// const changeToInt = (value) => {
+//     let result = Number.parseInt(value);
+//     if (!result) {
+//         return 'not a valid number';
+//     } else {
+//         return result;
+//     }
+// }
+// console.log(changeToInt('444'));
+// console.log(changeToInt('hellow'));
 
 // Error Handling with Try Catch in Javascript
 // (1)
@@ -410,3 +410,70 @@ console.log(changeToInt('hellow'));
 // } finally {
 //     console.log('i am finally');
 // }
+
+// What is AJAX?
+// AJAX = Asynchronous JavaScript And XML.
+// AJAX is not a programming language.
+
+// Ajax with Callback in Javascript
+// (1)
+// const xhr = new XMLHttpRequest();
+// xhr.open('get', 'https://jsonplaceholder.typicode.com/users');
+// xhr.onreadystatechange = function (event) {
+//     if (xhr.readyState === 4) {
+//         if (xhr.status === 200) {
+//             console.log(JSON.parse(xhr.responseText));
+//         } else {
+//             console.log(xhr.status);
+//         }
+//     }
+// }
+// xhr.send();
+
+/*
+const getRequest = (url, callback) => {
+    const xhr = new XMLHttpRequest();
+    xhr.open('get', url);
+    xhr.onreadystatechange = (event) => {
+        if (xhr.readyState === 4) {
+            if (xhr.status === 200) {
+                let response = JSON.parse(xhr.response);
+                callback(null, response);
+            } else {
+                callback(xhr.status, null);
+            }
+        }
+    }
+    xhr.send();
+}
+
+// users load
+// first way
+getRequest('https://jsonplaceholder.typicode.com/users', (err, res) => {
+    if (err) {
+        console.log(err);
+    } else {
+        console.log(res);
+    }
+});
+
+// // second way
+// const callbackFunc = (err, res) => {
+//     if (err) {
+//         console.log(err);
+//     } else {
+//         console.log(res);
+//     }
+// };
+// getRequest('https://jsonplaceholder.typicode.com/users', callbackFunc);
+
+// post load
+
+getRequest('https://jsonplaceholder.typicode.com/posts', (err, res) => {
+    if (err) {
+        console.log(err);
+    } else {
+        res.forEach(r => console.log(r.id));
+    }
+});
+*/
